@@ -1,0 +1,1 @@
+> DEV_NOTE: expect sudden crash on Dart side if using it with `/unpacked-extension`, the behaviour is due to nature of service worker that might struggle with prolonged inactivity, [see this]([Use WebSockets in service workers  |  Extensions  |  Chrome for Developers](https://developer.chrome.com/docs/extensions/how-to/web-platform/websockets))

@@ -1,0 +1,13 @@
+{
+    "name": "ws_nmh",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "minimum_chrome_version": "116",
+    "action": {
+        "default_title": "Click me"
+    },
+    "permissions": ["activeTab", "webRequest"],
+    "background": {
+        "service_worker": "service-worker.js"
+    }
+}
