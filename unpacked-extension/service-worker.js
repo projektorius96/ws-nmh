@@ -22,6 +22,8 @@ function connect() {
 /**
  * @tutorial
  * {@link https://developer.chrome.com/docs/extensions/how-to/web-platform/websockets}
+ * 
+ * Alternatively use [chrome.alarms] {@link https://developer.chrome.com/docs/extensions/develop/migrate/to-service-workers#convert-timers}
  */
 function keepAlive() {
     const keepAliveIntervalId = setInterval(
